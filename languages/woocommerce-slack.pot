@@ -1,0 +1,458 @@
+# Copyright (C) 2015 WooCommerce Slack
+# This file is distributed under the same license as the WooCommerce Slack package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Slack 1.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/woocommerce-slack\n"
+"POT-Creation-Date: 2015-07-29 21:09:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wcslack-events.php:107
+msgid "New Post:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:133
+msgid " by "
+msgstr ""
+
+#: includes/class-wcslack-events.php:134
+msgid "View Post"
+msgstr ""
+
+#: includes/class-wcslack-events.php:143
+msgid "Post"
+msgstr ""
+
+#: includes/class-wcslack-events.php:148
+msgid "Author"
+msgstr ""
+
+#: includes/class-wcslack-events.php:153
+msgid "Post Content"
+msgstr ""
+
+#: includes/class-wcslack-events.php:225
+msgid "New Order #%d:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:234
+msgid " ordered "
+msgstr ""
+
+#: includes/class-wcslack-events.php:235
+msgid " for "
+msgstr ""
+
+#: includes/class-wcslack-events.php:236
+msgid "View Order"
+msgstr ""
+
+#: includes/class-wcslack-events.php:245
+msgid "Order"
+msgstr ""
+
+#: includes/class-wcslack-events.php:250
+msgid "Customer"
+msgstr ""
+
+#: includes/class-wcslack-events.php:255
+msgid "Order Items"
+msgstr ""
+
+#: includes/class-wcslack-events.php:299
+msgid "Back Order:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:303
+msgid "Product (#%d %s) is on backorder."
+msgstr ""
+
+#: includes/class-wcslack-events.php:316 includes/class-wcslack-events.php:367
+#: includes/class-wcslack-events.php:418
+msgid "View Product"
+msgstr ""
+
+#: includes/class-wcslack-events.php:351
+msgid "Low on Stock:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:354
+msgid "Product (#%d %s) is low on stock."
+msgstr ""
+
+#: includes/class-wcslack-events.php:402
+msgid "Out of Stock:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:405
+msgid "Product (#%d %s) is out of stock."
+msgstr ""
+
+#: includes/class-wcslack-events.php:483
+msgid "New Review:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:495
+msgid " on "
+msgstr ""
+
+#: includes/class-wcslack-events.php:497
+msgid "View Review"
+msgstr ""
+
+#: includes/class-wcslack-events.php:506
+msgid "Reviewer"
+msgstr ""
+
+#: includes/class-wcslack-events.php:511
+msgid "Rating"
+msgstr ""
+
+#: includes/class-wcslack-events.php:516
+msgid "Product"
+msgstr ""
+
+#: includes/class-wcslack-events.php:521
+msgid "Review"
+msgstr ""
+
+#: includes/class-wcslack-events.php:568
+msgid "New Customer:"
+msgstr ""
+
+#: includes/class-wcslack-events.php:580
+msgid " Registered"
+msgstr ""
+
+#: includes/class-wcslack-events.php:581
+msgid "View Customer"
+msgstr ""
+
+#: includes/class-wcslack-events.php:731
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-wcslack-events.php:761
+msgid "Order Total"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:25
+msgid "Slack"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:26
+msgid ""
+"Configure the settings below to send notifications to your Slack channel "
+"based on WooCommerce events."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:183
+msgid "Which channel or group do you want the notifications to be sent to?"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:187
+msgid "Authentication & Defaults"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:189
+msgid ""
+"Please authenticate your slack account here and choose the defaults for "
+"sending messages."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:193
+msgid "API Key"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:195
+msgid ""
+"Go the your %s and copy the token provided. If there is no token yet, you'll "
+"need to press the \"Create Token\" button in the Authentication section. You "
+"may need to refresh after saving to see your rooms."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:195
+msgid "Slack Account's API / Token Settings"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:199
+msgid "Default Channel(s)"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:201
+msgid ""
+"Which channel or group do you want the notifications to be sent to by "
+"default?"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:205
+msgid "Default Emoji"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:207
+#: includes/class-wcslack-settings.php:252
+#: includes/class-wcslack-settings.php:293
+#: includes/class-wcslack-settings.php:342
+#: includes/class-wcslack-settings.php:375
+#: includes/class-wcslack-settings.php:408
+#: includes/class-wcslack-settings.php:441
+#: includes/class-wcslack-settings.php:482
+msgid "Emoji Code Here eg. :cop:"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:208
+msgid ""
+"Enter the code for an emoji you want to include with each message by "
+"default. You can find all codes on the %s or you can even upload your own "
+"icon as an emoji in %s"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:212
+msgid "Sender Name"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:215
+msgid ""
+"You can enter a custom name that messages will sent from. By default it's "
+"your site name."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:219
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:221
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:224
+msgid "Find the logs under WooCommerce > System Status > Logs"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:228
+msgid "Notification Events"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:230
+msgid "Check the events you would like to send notifications for."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:236
+msgid "New Post"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:238
+msgid "New Post Published"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:241
+msgid "Every time a new post is published"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:253
+#: includes/class-wcslack-settings.php:294
+#: includes/class-wcslack-settings.php:343
+#: includes/class-wcslack-settings.php:376
+#: includes/class-wcslack-settings.php:409
+#: includes/class-wcslack-settings.php:442
+#: includes/class-wcslack-settings.php:483
+msgid ""
+"Enter the code for an emoji you want to include with this type of "
+"notification"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:259
+#: includes/class-wcslack-settings.php:308
+#: includes/class-wcslack-settings.php:448
+msgid "Extended Notification"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:262
+#: includes/class-wcslack-settings.php:311
+#: includes/class-wcslack-settings.php:451
+msgid "Would you like to send extra details with this notification?"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:277
+#: includes/class-wcslack-settings.php:279
+msgid "New Order"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:282
+msgid "Every time a new order is made"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:300
+msgid "Free Orders"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:303
+msgid "Notify when a %s0 order is made?"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:326
+#: includes/class-wcslack-settings.php:328
+msgid "Back Order"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:331
+msgid "Every time a new back order is made"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:359
+#: includes/class-wcslack-settings.php:361
+msgid "Low on Stock"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:364
+msgid ""
+"Every time an item is low in stock (amount is defined in your inventory "
+"settings)"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:392
+#: includes/class-wcslack-settings.php:394
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:397
+msgid "Every time an item is out of stock"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:425
+msgid "Reviews"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:427
+msgid "New Review"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:430
+msgid "Every time a review is made"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:466
+msgid "Customers"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:468
+msgid "New Customer"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:471
+msgid "Every time a new customer is registered / created"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:553
+msgid "Test Notification: "
+msgstr ""
+
+#: includes/class-wcslack-settings.php:554
+msgid "This is a test notification from %s"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:558
+msgid "Extended Notifications"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:559
+msgid ""
+"Some notifications have the option to turn on extended notifications. They "
+"look this and will often contain extra information about the specific "
+"notification! Neat, huh?"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:563
+msgid "The Left Colored Bar"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:564
+msgid ""
+"It's possible to change the color of that bar on the left (green by "
+"default), using a simple filter. For more on this please see the %s."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:564
+msgid "WooCommerce Slack Documentation"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:568
+msgid "Support"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:569
+msgid "If you need help, please don't be afraid to ask %s."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:569
+msgid "WooThemes Support"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:573
+msgid "Back to Work!"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:574
+msgid "Now, get back to work over at"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:612
+msgid "Send Test"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:616
+msgid "Send Test Notification"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:620
+msgid "Save your settings first!"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:643
+msgid "Reload channels"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:647
+msgid "Reload Available Channels"
+msgstr ""
+
+#: includes/class-wcslack-settings.php:651
+msgid ""
+"If you have added a new channel and it's not showing, this will refresh the "
+"list."
+msgstr ""
+
+#: includes/class-wcslack-settings.php:744
+msgid "The API Key is invalid. Please double check it and try again!"
+msgstr ""
+
+#: woocommerce-slack.php:108
+msgid "WooCommerce Slack requires %s to be installed and active."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Slack"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/woocommerce-slack/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily send notifications to your different Slack channels and groups "
+"whenever a WooCommerce event happens!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bryce Adams"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bryce.se/"
+msgstr ""
